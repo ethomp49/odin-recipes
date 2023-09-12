@@ -1,5 +1,58 @@
 * {
     font-family:Arial, Helvetica, sans-serif;
     font-size: 18px;
-    color: black;
+}
+
+img {
+    width: 500px;
+    height: auto
+}
+
+a {
+    color: rgb(26, 98, 233)
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+.quesadilla h1,
+.quesadilla h3,
+.quesadilla .directions {
+    color:rgb(87, 41, 14)
+}
+
+.chili h1,
+.chili h2,
+.chili h3,
+.chili .directions {
+    color: rgb(90, 39, 95)
+}
+
+.pancake h1,
+.pancake h2,
+.pancake h3,
+.pancake .directions {
+    color:rgb(144, 206, 218)
+}
+
+.description, h3 {
+    font-size: 22px;
+}
+
+ul.ingredients, h3, .directions {
+    background-color:rgb(162, 133, 189);
+}
+
+
+ul.ingredients {
+    color: white;
 }
